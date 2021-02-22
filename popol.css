@@ -1,0 +1,27 @@
+body{
+    
+}
+#page{
+    width: 700px;
+    height: 900px;
+    padding: 30px 45px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background: #f0f0f0;
+    border: 1px solid black;
+}
+#info{
+    border: 1px solid black;
+}
+
+    #info h1, #info h5{
+        /* display: inline-block; */
+        margin: 0px;
+    }
+
+#content{
+    border: 1px solid black;
+    width: 700px;
+    min-height: 400px;
+}
