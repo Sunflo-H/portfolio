@@ -3,16 +3,16 @@ body{
 }
 #page{
     width: 700px;
-    height: 900px;
+    min-height: 900px;
     padding: 30px 45px;
     margin-left:auto;
     margin-right: auto;
     margin-top: 50px;
     background: #f0f0f0;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 #info{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
     #info h1, #info h5{
@@ -21,7 +21,37 @@ body{
     }
 
 #content{
-    border: 1px solid black;
+    margin-top: 20px;
+    padding-top: 20px;
+    /* border: 1px solid black; */
+    border-top: 2px solid black;
     width: 700px;
     min-height: 400px;
 }
+
+    #content #c1{
+        display: flex;
+        width: 700px;
+        min-height: 500px;
+        /* border: 1px solid black; */
+    }
+
+        #content #c1 #contnet-title{
+            /* border: 1px solid black; */
+            padding-right: 50px;
+            border-right: 1px solid black;
+        }
+
+#project {
+    margin-left: 10px;
+}        
+#project #project-panel{
+    height: 300px;
+}
+    .project-title{
+        display: flex;
+    }
+
+    .project-content{
+        
+    }
